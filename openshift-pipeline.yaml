@@ -6,7 +6,7 @@ items:
   kind: BuildConfig
   metadata:
     annotations:
-      pipeline.alpha.openshift.io/uses: '[{"name": "cert", "namespace": "", "kind": "DeploymentConfig"}]'
+      pipeline.alpha.openshift.io/uses: '[{"name": "httpd", "namespace": "", "kind": "DeploymentConfig"}]'
     name: jenkins-pipeline
   spec:
     source:
