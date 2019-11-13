@@ -7,7 +7,7 @@ items:
   metadata:
     annotations:
       pipeline.alpha.openshift.io/uses: '[{"name": "httpd", "namespace": "", "kind": "DeploymentConfig"}]'
-    name: jenkins-pipeline
+    name: jenkins-pipeline1
   spec:
     source:
       git:
